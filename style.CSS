@@ -1,0 +1,103 @@
+.telaLogin{
+   position: fixed;
+   top: 10%;
+   left: 12%;
+    box-shadow: 0px 20px 80px 20px red;
+    border-radius: 30px 30px 30px 30px;
+    width: 80%;
+    height: 40%;
+    background-color: transparent;
+    transition: 3s;
+}
+.mail{
+    background-color: transparent;
+    position: fixed;
+    top: 19%;
+    left: 13%;
+    width: 37%;
+    height: 25px;
+    border-radius: 10px 10px 10px 10px;
+    transition: 6s;
+}
+
+.pass{
+    background-color: transparent ;
+    position: fixed;
+    top: 27%;
+    left: 13%;
+    width: 37%;
+    height: 25px;
+     border-radius: 10px 10px 10px 10px;
+     transition: 4s;
+}
+button{
+   
+    text-decoration:double;
+    padding: 10px;
+    width: 20%;
+    align-items: center;
+    position: fixed;
+    top: 35%;
+    left: 23%;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    box-shadow: 0px 4px 20px red;
+transition: 6s;
+   
+}
+
+html, body{
+   margin: 0;
+    padding: 0;
+     width: 100%;
+     min-height: 100vh;
+}
+
+body{
+  
+    background:
+    radial-gradient(circle at 0% 0%, rgb(11, 250, 7), transparent 70%),
+    radial-gradient(circle at 100% 0%, rgb(230, 5, 5), transparent 70%),
+    radial-gradient(circle at 100% 100%, rgb(79, 7, 168), transparent 70%),
+    radial-gradient(circle at 0% 100%, rgb(95, 7, 237), transparent 70%);
+   background-attachment: fixed;
+  background-repeat: no-repeat;
+   background-size: 400% 400%;
+    animation: capy 5s ease infinite alternate;
+   
+}
+
+@keyframes capy{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 50% 100%;}
+    
+}
+.direito{
+    background-color: blue;
+    padding: 0;
+    position: fixed;
+    top: 10%;
+    left: 52%;
+    width: 40%;
+    height: 40%;
+    border-radius: 0px 30px 30px 0px;
+    
+    transition: 5s;
+   
+}
+
+
+.logar{
+   position: fixed;
+   left: 27%;
+}
+
+.semConta{
+    position: fixed;
+    top: 42%;
+    left: 22%;
+}
